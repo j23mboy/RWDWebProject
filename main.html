@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWD 網頁專案</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RWD 網頁專案</h1>
+        <div class="main-buttons">
+            <button class="main-btn" data-target="section1">按鈕 1</button>
+            <button class="main-btn" data-target="section2">按鈕 2</button>
+            <button class="main-btn" data-target="section3">按鈕 3</button>
+            <button class="main-btn" data-target="section4">按鈕 4</button>
+            <button class="main-btn" data-target="section5">按鈕 5</button>
+            <button class="main-btn" data-target="section6">按鈕 6</button>
+        </div>
+
+        <div class="hidden-sections">
+            <div id="section1" class="hidden-section">
+                <div class="sub-buttons">
+                    <button class="sub-btn" data-target="subsection1">子按鈕 1</button>
+                    <button class="sub-btn" data-target="subsection2">子按鈕 2</button>
+                    <button class="sub-btn" data-target="subsection3">子按鈕 3</button>
+                    <button class="sub-btn" data-target="subsection4">子按鈕 4</button>
+                    <button class="sub-btn" data-target="subsection5">子按鈕 5</button>
+                    <button class="sub-btn" data-target="subsection6">子按鈕 6</button>
+                </div>
+                <div id="subsection1" class="sub-hidden-section"></div>
+                <div id="subsection2" class="sub-hidden-section"></div>
+                <div id="subsection3" class="sub-hidden-section"></div>
+                <div id="subsection4" class="sub-hidden-section"></div>
+                <div id="subsection5" class="sub-hidden-section"></div>
+                <div id="subsection6" class="sub-hidden-section"></div>
+            </div>
+            <!-- 其他隱藏區域同理 -->
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
